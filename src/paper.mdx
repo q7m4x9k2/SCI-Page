@@ -1,0 +1,34 @@
+---
+title: Democratic and Judicial Mechanisms Empower AI Agents to Achieve Trustworthy Collective Reasoning as a Society
+links:
+  - name: Paper
+    url: ./
+    icon: ri:file-pdf-2-line
+  - name: Code
+    url: ./
+    icon: ri:github-line
+  - name: arXiv
+    url: ./
+    icon: academicons:arxiv
+
+theme: device
+favicon: favicon.svg
+description: Democratic and Judicial Principles Unlock Trustworthy Shared Intelligence among AI Agents
+---
+
+import HighlightedSection from "./components/HighlightedSection.astro";
+import Picture from "./components/Picture.astro";
+import CaseGallery from "./components/CaseGallery.astro";
+import caseSamples from "./data/caseSamples.json";
+
+<Picture src="../assets/Fig2_0702.pdf" alt="Overview of the ACO framework" />
+
+<HighlightedSection>
+
+## Abstract
+<div class="text-justify text-base leading-7">
+  Artificial intelligence is rapidly shifting from isolated agents toward societies that perceive, deliberate, and decide collectively. Yet shared intelligence remains difficult to trust when evidence is opaque, inter-agent disagreement is unstructured, and decision-making responsibility is diffuse. Human democratic and judicial principles offer a powerful blueprint for organizing collective intelligence. Here we introduce <em>Self-Governed Collective Intelligence</em> (SCI), a paradigm for trustworthy agent societies in multimodal reasoning inspired by human democratic and judicial systems. SCI assigns agents to institutional roles for evidence collection, adversarial deliberation, judicial review, and jury-based aggregation, transforming model disagreement into a structured process with explicit shared values. Evaluated across five multimodal backbone models, seven complex reasoning tasks, and 4,041 cases, SCI consistently improves pass@1 accuracy over standard inference, achieving relative gains of 36.9%–48.5%. Beyond performance gains, SCI reveals how collective reliability can emerge from procedural responsibility among AI agents. Fact-driven tasks, such as counting and object recognition, derive most of their gains (66.7%) from shared evidence, whereas complex reasoning tasks, such as dynamic spatial reasoning and goal-oriented navigation, benefit most from adjudicating competing interpretations (38.4%). By making evidence visible, judgment accountable, and responsibility separable, SCI demonstrates that recursive and responsible reasoning can emerge from collaborative AI agents governed by shared values. This highlights a promising path forward for aligning AI agents with human values to create trustworthy AI societies.
+</div>
+</HighlightedSection>
+
+<CaseGallery cases={caseSamples} />
