@@ -1,0 +1,28 @@
+---
+title: Democratic and Judicial Mechanisms Enable AI Agents to Collaborate as a Society for Multimodal Scientific Reasoning
+links:
+  - name: Code
+    url: https://github.com/q7m4x9k2/SCI-Page
+    icon: ri:github-line
+
+theme: device
+favicon: favicon.svg
+description: Democratic and Judicial Mechanisms Enable AI Agents to Collaborate as a Society for Multimodal Scientific Reasoning
+---
+
+import HighlightedSection from "./components/HighlightedSection.astro";
+import Picture from "./components/Picture.astro";
+import CaseGallery from "./components/CaseGallery.astro";
+import caseSamples from "./data/caseSamples.json";
+
+<Picture src="../assets/Fig2_0903.pdf" alt="Overview of the Self-Governed Collective Intelligence framework" />
+
+<HighlightedSection>
+
+## Abstract
+<div class="text-justify text-base leading-7">
+  Artificial intelligence is rapidly evolving from isolated models towards societies of interacting agents that perceive, deliberate and decide collectively. Here we introduce <em>Self-Governed Collective Intelligence</em> (<em>SCI</em>), a general paradigm that translates democratic and judicial principles into executable mechanism for trustworthy, recursive multimodal reasoning in AI-agent societies. <em>SCI</em> assigns agents to institutional roles for evidence collection, adversarial deliberation, judicial review and jury-based aggregation, transforming model disagreement into a structured process with explicit shared values for self-growth. We evaluate <em>SCI</em> using ten specialized expert agents and multimodal LLM backbones on 4,041 challenging cases spanning seven reasoning regimes. Across the full benchmark, <em>SCI</em> performs 1.04 million collective deliberative operations, 143,625 facts acquisition, 323,748 adversarial deliberations over candidate statements and 168,150 judicial assessments of competing opinions. And the collective intelligence improves pass@1 accuracy by 37.0%–48.4% relative to standard inference and reduces the cross-backbone coefficient of variation by 65.6%. Beyond performance gains, <em>SCI</em> reveals how collective reliability can emerge from procedural responsibility among AI agents. Fact-driven tasks, such as quantitative measurement and entity characterization, derive most of their gains (66.6%) from shared evidence, whereas complex reasoning tasks, such as spatiotemporal reasoning and goal-oriented navigation, benefit most from adjudicating competing interpretations (38.8%). By making evidence visible, judgment accountable, and responsibility separable, <em>SCI</em> demonstrates that recursive and accountable reasoning can emerge from collaborative AI agents governed by shared values. This highlights a promising path forward for aligning AI agents with human values to create trustworthy AI societies.
+</div>
+</HighlightedSection>
+
+<CaseGallery cases={caseSamples} />
